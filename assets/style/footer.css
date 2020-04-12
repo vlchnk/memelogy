@@ -1,0 +1,22 @@
+.footer {
+    width: 965px;
+    height: 130px;
+    border-top: 1px solid #E57DFF;
+    text-align: center;
+    margin: auto;
+    background: #F9FAFA;
+    padding: 0;
+}
+
+.footer__links {
+    padding-top: 20px;
+}
+
+.footer-info {
+    padding: 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #E57DFF;
+}

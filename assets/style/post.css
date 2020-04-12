@@ -1,0 +1,44 @@
+.post {
+    width: 965px;
+    text-align: center;
+    margin: auto;
+    background: #F9FAFA;
+    padding-top: 40px;
+}
+
+.post__box {
+    border-top: 1px solid #E57DFF;
+    margin: auto;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.post__box img {
+    width: 200px;
+    height: auto;
+}
+
+.meme-box {
+    width: 965px;
+    text-align: center;
+    margin: auto;
+    background: #F9FAFA;
+}
+
+#post-btn {
+    border-bottom: 1px solid #E57DFF;
+    margin-top: -100px;
+    width: 253px;
+    left: 356px;
+    top: 10px;
+    height: 69px;
+}
+
+.new-post {
+    width: 965px;
+    text-align: center;
+    margin: auto;
+    background: #F9FAFA;
+    padding: 10px 0px;
+    padding-bottom: 1px;
+}

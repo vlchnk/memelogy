@@ -1,0 +1,95 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(270deg, #daf8f1, #ffddfd);
+    background-size: 400% 400%;
+    animation: rainbow-background 10s ease infinite;
+    margin: 50px;
+}
+
+.header {
+    border-bottom: 1px solid #E57DFF;
+    text-align: center;
+    margin: auto;
+    width: 965px;
+    height: 220px;
+    background: #F9FAFA;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.header-name {
+    margin: auto;
+    width: 643px;
+    height: 67.2px;
+    padding: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 84px;
+    letter-spacing: 0.5em;
+}
+
+.header__nav {
+    columns: 3;
+}
+
+.nav-btn a {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(105.66deg, #8AEAFF 2.45%, rgba(255, 255, 255, 0) 100%), #EDC9FA;
+    border: 1px solid #E57DFF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5em;
+    transition-duration: 0.4s;
+    padding: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.links-box {
+    background-color: #E57DFF;
+    z-index: 1;
+    top: -70px;
+    left: 79px;
+    position: relative;
+    transition-duration: 0.4s;
+    height: 70px;
+}
+
+#btn-1 {
+    width: 152px;
+}
+
+#btn-2 {
+    left: 76px;
+    width: 158px;
+}
+
+#btn-3 {
+    left: 65px;
+    width: 181px;
+}
+
+.nav-btn a:hover {
+    transform: translate(-10px, -10px);
+}
+
+@keyframes rainbow-background {
+    0% {
+        background-position: 0% 86%
+    }
+    50% {
+        background-position: 100% 15%
+    }
+    100% {
+        background-position: 0% 86%
+    }
+}

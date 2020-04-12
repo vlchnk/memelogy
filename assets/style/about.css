@@ -1,0 +1,20 @@
+.about {
+    width: 965px;
+    text-align: center;
+    margin: auto;
+    background: #F9FAFA;
+    padding: 10px 0px;
+    padding-bottom: 40px;
+}
+
+p {
+    padding: 15px;
+    text-align: left;
+}
+
+blockquote {
+    text-align: right;
+    color: grey;
+    font-size: 14px;
+    margin: auto;
+}

@@ -1,0 +1,50 @@
+.meme {
+    width: 965px;
+    text-align: center;
+    margin: auto;
+    background: #F9FAFA;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+}
+
+.meme-box button {
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(105.66deg, #8AEAFF 2.45%, rgba(255, 255, 255, 0) 100%), #EDC9FA;
+    border: 1px solid #E57DFF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5em;
+    transition-duration: 0.4s;
+    padding: 20px;
+    color: #FFFFFF;
+    z-index: 3;
+    margin: 20px;
+}
+
+.meme-btn {
+    background-color: #E57DFF;
+    z-index: 1;
+    position: relative;
+    transition-duration: 0.4s;
+    height: 70px;
+}
+
+#meme-btn {
+    width: 151px;
+    left: 407px;
+    top: -90px;
+}
+
+.meme-box button:hover {
+    transform: translate(-10px, -10px);
+}
+
+#meme-img img {
+    width: 500px;
+    height: auto;
+}
